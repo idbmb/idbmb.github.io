@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CentOS on Idbmb: An Ordinary Open Source Blog</title>
+    <link>/tags/centos/</link>
+    <description>Recent content in CentOS on Idbmb: An Ordinary Open Source Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Oct 2019 23:00:56 +0700</lastBuildDate>
+    
+	<atom:link href="/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CentOS sering dipandang sebagai distribusi server yang handal</title>
+      <link>/blog/centos-sering-dipandang-sebagai-distribusi-server-yang-handal/</link>
+      <pubDate>Sat, 12 Oct 2019 23:00:56 +0700</pubDate>
+      
+      <guid>/blog/centos-sering-dipandang-sebagai-distribusi-server-yang-handal/</guid>
+      <description>Apa itu CentOS ? Diluncurkan pada akhir 2003, CentOS adalah proyek komunitas dengan tujuan membangun kembali kode sumber untuk Red Hat Enterprise Linux (RHEL) menjadi distribusi Linux yang dapat diinstal dan untuk memberikan pembaruan keamanan yang tepat waktu untuk semua paket perangkat lunak yang disertakan. Agar lebih terang-terangan, CentOS adalah klon RHEL. Satu-satunya perbedaan teknis antara kedua distribusi adalah branding - CentOS mengganti semua merek dagang dan logo Red Hat dengan miliknya.</description>
+    </item>
+    
+  </channel>
+</rss>

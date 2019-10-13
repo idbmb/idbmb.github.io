@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Debian on Idbmb: An Ordinary Open Source Blog</title>
+    <link>/tags/debian/</link>
+    <description>Recent content in Debian on Idbmb: An Ordinary Open Source Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Oct 2019 23:00:46 +0700</lastBuildDate>
+    
+	<atom:link href="/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Debian distribusi Linux terbesar dan mungkin proyek perangkat lunak kolaboratif terbesar</title>
+      <link>/blog/debian-distribusi-linux-terbesar-dan-mungkin-proyek-perangkat-lunak-kolaboratif-terbesar/</link>
+      <pubDate>Sat, 12 Oct 2019 23:00:46 +0700</pubDate>
+      
+      <guid>/blog/debian-distribusi-linux-terbesar-dan-mungkin-proyek-perangkat-lunak-kolaboratif-terbesar/</guid>
+      <description>Apa itu Debian ? Debian GNU / Linux pertama kali diumumkan pada tahun 1993. Pendirinya, Ian Murdock, membayangkan penciptaan proyek yang sepenuhnya non-komersial yang dikembangkan oleh ratusan pengembang sukarela di waktu luang mereka. Dengan skeptis jauh melebihi jumlah optimis pada saat itu, tampaknya ditakdirkan untuk hancur dan runtuh, tetapi kenyataannya sangat berbeda. Debian tidak hanya bertahan, berkembang dan, dalam waktu kurang dari satu dekade, Debian menjadi distribusi Linux terbesar dan mungkin proyek perangkat lunak kolaboratif terbesar yang pernah dibuat!</description>
+    </item>
+    
+  </channel>
+</rss>

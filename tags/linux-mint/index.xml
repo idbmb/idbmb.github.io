@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux-Mint on Idbmb: An Ordinary Open Source Blog</title>
+    <link>/tags/linux-mint/</link>
+    <description>Recent content in Linux-Mint on Idbmb: An Ordinary Open Source Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Oct 2019 23:00:06 +0700</lastBuildDate>
+    
+	<atom:link href="/tags/linux-mint/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux Mint Distribusi Berbasis Ubuntu</title>
+      <link>/blog/linux-mint-distribusi-berbasis-ubuntu/</link>
+      <pubDate>Sat, 12 Oct 2019 23:00:06 +0700</pubDate>
+      
+      <guid>/blog/linux-mint-distribusi-berbasis-ubuntu/</guid>
+      <description>Apa itu Linux Mint ? Linux Mint, distribusi berbasis Ubuntu, pertama kali diluncurkan pada 2006 oleh Clement Lefebvre, spesialis IT kelahiran Prancis yang tinggal di Irlandia. Awalnya memelihara situs web Linux yang didedikasikan untuk memberikan bantuan, tips dan dokumentasi untuk pengguna Linux baru, penulis melihat potensi mengembangkan distribusi Linux yang akan mengatasi banyak kelemahan kegunaan terkait dengan produk yang umumnya lebih teknis, produk utama. Setelah meminta umpan balik dari para pengunjung di situs webnya, ia melanjutkan dengan membangun apa yang oleh banyak orang disebut sebagai &amp;ldquo;Ubuntu yang ditingkatkan&amp;rdquo; atau &amp;ldquo;Ubuntu dilakukan dengan benar&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

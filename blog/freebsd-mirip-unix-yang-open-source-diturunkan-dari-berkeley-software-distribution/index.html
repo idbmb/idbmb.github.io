@@ -1,0 +1,1371 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "\/"
+        },
+        "articleSection" : "blog",
+        "name" : "FreeBSD mirip Unix yang Open-source diturunkan dari Berkeley Software Distribution",
+        "headline" : "FreeBSD mirip Unix yang Open-source diturunkan dari Berkeley Software Distribution",
+        "description" : "Sistem Operasi Open Source FreeBSD",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2019",
+        "datePublished": "2019-10-12 23:00:32 \x2b0700 WIB",
+        "dateModified" : "2019-10-12 23:00:32 \x2b0700 WIB",
+        "url" : "\/blog\/freebsd-mirip-unix-yang-open-source-diturunkan-dari-berkeley-software-distribution\/",
+        "wordCount" : "448",
+        "keywords" : [ "FreeBSD","Blog" ]
+    }
+    </script>
+        
+            
+                <title>FreeBSD mirip Unix yang Open-source diturunkan dari Berkeley Software Distribution</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.58.2" />
+        
+  
+    
+  
+
+  
+
+  <link rel="icon" href='/img/main/favicon.ico'>
+  
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content='/img/main/favicon.ico'>
+  <meta name="application-name" content="Idbmb: An Ordinary Open Source Blog">
+  <meta name="msapplication-tooltip" content="Blog open source yang mencakup berbagai topik yang saya gunakan selama bekerja atau waktu pribadi saya. Saya harap artikel ini membantu Anda sebanyak yang telah membantu saya!">
+
+
+
+        
+            <meta name="author" content="Bambang">
+        
+        
+            <meta name="description" content="Sistem Operasi Open Source FreeBSD">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="FreeBSD mirip Unix yang Open-source diturunkan dari Berkeley Software Distribution"/>
+<meta name="twitter:description" content="Sistem Operasi Open Source FreeBSD"/>
+<meta name="twitter:site" content="@bambang_rahmadi"/>
+
+        <meta property="og:title" content="FreeBSD mirip Unix yang Open-source diturunkan dari Berkeley Software Distribution" />
+<meta property="og:description" content="Sistem Operasi Open Source FreeBSD" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/freebsd-mirip-unix-yang-open-source-diturunkan-dari-berkeley-software-distribution/" />
+<meta property="article:published_time" content="2019-10-12T23:00:32+07:00" />
+<meta property="article:modified_time" content="2019-10-12T23:00:32+07:00" />
+
+        <meta property="og:image" content="/img/main/logo.jpg">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        <meta itemprop="name" content="FreeBSD mirip Unix yang Open-source diturunkan dari Berkeley Software Distribution">
+<meta itemprop="description" content="Sistem Operasi Open Source FreeBSD">
+
+
+<meta itemprop="datePublished" content="2019-10-12T23:00:32&#43;07:00" />
+<meta itemprop="dateModified" content="2019-10-12T23:00:32&#43;07:00" />
+<meta itemprop="wordCount" content="448">
+
+
+
+<meta itemprop="keywords" content="FreeBSD," />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="/css/main.css">
+            <link rel="stylesheet" href="/css/add-on.css">
+            <link rel="stylesheet" href="/css/academicons.min.css">
+        
+
+        
+            
+                
+            
+        
+
+
+  
+    
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css' rel='stylesheet' type='text/css' />
+  
+
+
+      
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="/">blog</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+            <li>
+            
+            <a href="/"><i class="fa fa-home">&nbsp;</i>Home</a>
+            
+            </li>
+            
+            <li>
+            
+            <a href="/blog/"><i class="fa fa-newspaper-o">&nbsp;</i>Blog</a>
+            
+            </li>
+            
+            <li>
+            
+              <a class="dropdown" href="#"><i class="fa fa-angle-double-down">&nbsp;</i>About</a>
+              <ul class="dropdown-content">
+                
+                  <li><a href="/about/"><i class="fa fa-newspaper">&nbsp;</i>About idbmb.my.id</a></li>
+                
+                  <li><a href="/advertise/"><i class="fa fa-line-chart">&nbsp;</i>Advertise</a></li>
+                
+                  <li><a href="/archive/"><i class="fa fa-sitemap">&nbsp;</i>Archive</a></li>
+                
+                  <li><a href="/contact/"><i class="fa fa-envelope-o">&nbsp;</i>Contact Us</a></li>
+                
+                  <li><a href="/about/credit/"><i class="fa fa-file-code-o">&nbsp;</i>Credit</a></li>
+                
+                  <li><a href="/faqs/"><i class="fa fa-podcast">&nbsp;</i>FAQs</a></li>
+                
+                  <li><a href="/status/"><i class="fa fa-stethoscope">&nbsp;</i>Status</a></li>
+                
+              </ul>
+            
+            </li>
+            
+            <li>
+            
+            <a href="/project/"><i class="fa fa-calendar-check-o">&nbsp;</i>Projects</a>
+            
+            </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search" target="_blank">
+                    <input type="text" name="q" placeholder="Kata Kunci" />
+                    <input type="hidden" name="as_sitesearch" value="/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    
+                    <li>
+                    
+                    <a href="/"><i class="fa fa-home">&nbsp;</i>Home</a>
+                    
+                    </li>
+                
+                    
+                    <li>
+                    
+                    <a href="/blog/"><i class="fa fa-newspaper-o">&nbsp;</i>Blog</a>
+                    
+                    </li>
+                
+                    
+                    <li>
+                    
+                      <a class="dropdown" href="#"><i class="fa fa-angle-double-down">&nbsp;</i>About</a>
+                      <ul class="dropdown-content">
+                        
+                        <li><a href="/about/"><i class="fa fa-newspaper">&nbsp;</i>About idbmb.my.id</a></li>
+                        
+                        <li><a href="/advertise/"><i class="fa fa-line-chart">&nbsp;</i>Advertise</a></li>
+                        
+                        <li><a href="/archive/"><i class="fa fa-sitemap">&nbsp;</i>Archive</a></li>
+                        
+                        <li><a href="/contact/"><i class="fa fa-envelope-o">&nbsp;</i>Contact Us</a></li>
+                        
+                        <li><a href="/about/credit/"><i class="fa fa-file-code-o">&nbsp;</i>Credit</a></li>
+                        
+                        <li><a href="/faqs/"><i class="fa fa-podcast">&nbsp;</i>FAQs</a></li>
+                        
+                        <li><a href="/status/"><i class="fa fa-stethoscope">&nbsp;</i>Status</a></li>
+                        
+                      </ul>
+                    
+                    </li>
+                
+                    
+                    <li>
+                    
+                    <a href="/project/"><i class="fa fa-calendar-check-o">&nbsp;</i>Projects</a>
+                    
+                    </li>
+                
+            </ul>
+        </section>
+
+        
+        
+        <section id="subscribe">
+            <form style="border:1px solid #ccc;padding:3px;text-align:center;"
+    action="https://tinyletter.com/idbmb"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https:\/\/tinyletter.com\/idbmb',
+        'popupwindow',
+        'scrollbars=yes,width=800,height=600'
+    );return true">
+    <p>
+        <label for="tlemail">
+            <br>
+            Mau Panduan dan Tips Eksklusif ?
+            <br>
+            Berlangganan Idbmb: An Ordinary Open Source Blog Sekarang GRATIS.
+        </label>
+    </p>
+    <p>
+        <input
+        type="text"
+        style="float:center"
+        name="email"
+        id="tlemail"
+        placeholder="Masukkan E-mail Anda"
+        />
+    </p>
+    <input
+        type="hidden"
+        value="1"
+        name="embed"
+    />
+    <input
+        class="button"
+        type="submit"
+        value="Ya, Saya Mau !"
+    />
+    <br></br>
+</form>
+
+        </section>
+        
+
+        
+        <section class="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/arch-linux-dengan-filosofi-kiss/">Arch Linux dengan Filosofi KISS</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-10-12'>
+                                    October 12, 2019</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/arch-linux-dengan-filosofi-kiss/" class="image featured">
+            <img src="../../../img/blog/arch-small.png" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/centos-sering-dipandang-sebagai-distribusi-server-yang-handal/">CentOS sering dipandang sebagai distribusi server yang handal</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-10-12'>
+                                    October 12, 2019</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/centos-sering-dipandang-sebagai-distribusi-server-yang-handal/" class="image featured">
+            <img src="../../../img/blog/centos-small.png" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/debian-distribusi-linux-terbesar-dan-mungkin-proyek-perangkat-lunak-kolaboratif-terbesar/">Debian distribusi Linux terbesar dan mungkin proyek perangkat lunak kolaboratif terbesar</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-10-12'>
+                                    October 12, 2019</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/debian-distribusi-linux-terbesar-dan-mungkin-proyek-perangkat-lunak-kolaboratif-terbesar/" class="image featured">
+            <img src="../../../img/blog/debian-small.png" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/fedora-salah-satu-distribusi-paling-inovatif-yang-tersedia-hari-ini/">Fedora salah satu distribusi paling inovatif yang tersedia hari ini</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-10-12'>
+                                    October 12, 2019</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/fedora-salah-satu-distribusi-paling-inovatif-yang-tersedia-hari-ini/" class="image featured">
+            <img src="../../../img/blog/fedora-small.png" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /blog/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+        
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Bagikan ke teman-temanmu <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=%2fblog%2ffreebsd-mirip-unix-yang-open-source-diturunkan-dari-berkeley-software-distribution%2f&amp;text=FreeBSD%20mirip%20Unix%20yang%20Open-source%20diturunkan%20dari%20Berkeley%20Software%20Distribution&amp;via=bambang_rahmadi" target="_blank" class="share-btn twitter">
+    <i class="fab fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=%2fblog%2ffreebsd-mirip-unix-yang-open-source-diturunkan-dari-berkeley-software-distribution%2f" target="_blank" class="share-btn facebook">
+    <i class="fab fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=%2fblog%2ffreebsd-mirip-unix-yang-open-source-diturunkan-dari-berkeley-software-distribution%2f&amp;title=FreeBSD%20mirip%20Unix%20yang%20Open-source%20diturunkan%20dari%20Berkeley%20Software%20Distribution" target="_blank" class="share-btn reddit">
+    <i class="fab fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=%2fblog%2ffreebsd-mirip-unix-yang-open-source-diturunkan-dari-berkeley-software-distribution%2f&amp;title=FreeBSD%20mirip%20Unix%20yang%20Open-source%20diturunkan%20dari%20Berkeley%20Software%20Distribution" target="_blank" class="share-btn linkedin">
+      <i class="fab fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Bambang&amp;body=%2fblog%2ffreebsd-mirip-unix-yang-open-source-diturunkan-dari-berkeley-software-distribution%2f" target="_blank" class="share-btn email">
+    <i class="fas fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="/blog/freebsd-mirip-unix-yang-open-source-diturunkan-dari-berkeley-software-distribution/">FreeBSD mirip Unix yang Open-source diturunkan dari Berkeley Software Distribution</a></h1>
+            
+        
+        
+            <p>Sistem Operasi Open Source FreeBSD</p>
+        
+    </div>
+    <div class="meta">
+      <a href="#" class="author"><strong>Bambang</strong><img src="../../../img/main/bambang.png" alt="Bambang" /></a>
+        
+        <time class="published"
+            datetime='2019-10-12'>
+            <span class="published"> Last Update</span>
+            October 12, 2019</time>
+        
+            <p>3 minute read</p>
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+
+<li>
+  <a href="//twitter.com/share?url=%2fblog%2ffreebsd-mirip-unix-yang-open-source-diturunkan-dari-berkeley-software-distribution%2f&amp;text=FreeBSD%20mirip%20Unix%20yang%20Open-source%20diturunkan%20dari%20Berkeley%20Software%20Distribution&amp;via=bambang_rahmadi" target="_blank" class="share-btn twitter">
+    <i class="fab fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=%2fblog%2ffreebsd-mirip-unix-yang-open-source-diturunkan-dari-berkeley-software-distribution%2f" target="_blank" class="share-btn facebook">
+    <i class="fab fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=%2fblog%2ffreebsd-mirip-unix-yang-open-source-diturunkan-dari-berkeley-software-distribution%2f&amp;title=FreeBSD%20mirip%20Unix%20yang%20Open-source%20diturunkan%20dari%20Berkeley%20Software%20Distribution" target="_blank" class="share-btn reddit">
+    <i class="fab fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=%2fblog%2ffreebsd-mirip-unix-yang-open-source-diturunkan-dari-berkeley-software-distribution%2f&amp;title=FreeBSD%20mirip%20Unix%20yang%20Open-source%20diturunkan%20dari%20Berkeley%20Software%20Distribution" target="_blank" class="share-btn linkedin">
+      <i class="fab fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Bambang&amp;body=%2fblog%2ffreebsd-mirip-unix-yang-open-source-diturunkan-dari-berkeley-software-distribution%2f" target="_blank" class="share-btn email">
+    <i class="fas fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+      </ul>
+    </section>
+  
+
+  
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/freebsd-mirip-unix-yang-open-source-diturunkan-dari-berkeley-software-distribution/" class="image featured">
+            <img src="../../../img/blog/freebsd-small.png" alt="">
+        </a>
+    
+
+
+  <div id="content">
+    
+
+<h2 id="apa-itu-freebsd">Apa itu FreeBSD ?</h2>
+
+<p>FreeBSD, keturunan tidak langsung AT&amp;T UNIX melalui Berkeley Software Distribution (BSD), memiliki sejarah yang panjang dan bergejolak sejak tahun 1993. Tidak seperti distribusi Linux, yang didefinisikan sebagai solusi perangkat lunak terintegrasi yang terdiri dari kernel Linux dan ribuan aplikasi perangkat lunak, FreeBSD adalah sistem operasi terintegrasi yang dibangun dari kernel BSD dan yang disebut &ldquo;userland&rdquo; (oleh karena itu dapat digunakan bahkan tanpa aplikasi tambahan). Perbedaan ini sebagian besar hilang begitu diinstal pada sistem komputer rata-rata - seperti banyak distribusi Linux, banyak aplikasi open source (sebagian besar) yang mudah dipasang tersedia untuk memperluas inti FreeBSD, tetapi ini biasanya disediakan oleh kontributor pihak ketiga dan bukan bagian dari FreeBSD.</p>
+
+<p>FreeBSD telah mengembangkan reputasi sebagai sistem operasi yang cepat, berkinerja tinggi, dan sangat stabil, terutama cocok untuk melayani web dan tugas serupa. Banyak mesin pencari web besar dan organisasi dengan infrastruktur komputasi kritis misi telah menggunakan dan menggunakan FreeBSD pada sistem komputer mereka selama bertahun-tahun. Dibandingkan dengan Linux, FreeBSD didistribusikan di bawah lisensi yang jauh lebih ketat, yang memungkinkan penggunaan kembali secara virtual dan modifikasi kode sumber untuk tujuan apa pun. Bahkan sebagian dari MacOS Apple diketahui berasal dari FreeBSD. Selain sistem operasi inti, proyek ini juga menyediakan lebih dari 24.000 aplikasi perangkat lunak (disebut port) dalam bentuk kode sumber dan biner untuk kemudahan instalasi di atas inti FreeBSD.</p>
+
+<p>FreeBSD memiliki dukungan asli untuk sistem file canggih ZFS dan mendukung snapshot dan lingkungan boot. Ini memungkinkan pengguna FreeBSD untuk melindungi data mereka dan mengembalikan perubahan sistem operasi.</p>
+
+<p>Walaupun FreeBSD dapat digunakan sebagai sistem operasi desktop, FreeBSD tidak dapat dibandingkan dengan distribusi Linux yang populer di departemen ini. Penginstal sistem mode teks menawarkan sedikit dalam hal deteksi perangkat keras atau konfigurasi sistem, meninggalkan banyak pekerjaan kotor kepada pengguna dalam pengaturan pasca-instalasi. Dalam hal dukungan untuk perangkat keras modern, FreeBSD umumnya tertinggal dari Linux, terutama dalam mendukung gadget desktop dan laptop mutakhir, seperti kartu jaringan nirkabel atau kamera digital. Para pengguna yang ingin mengeksploitasi kecepatan dan stabilitas FreeBSD pada desktop atau workstation harus mempertimbangkan salah satu proyek desktop FreeBSD yang tersedia, daripada FreeBSD itu sendiri.</p>
+
+<ul>
+<li>Kelebihan: Cepat dan stabil; ketersediaan lebih dari 24.000 aplikasi perangkat lunak (atau &ldquo;port&rdquo;) untuk instalasi; dokumentasi yang sangat bagus; dukungan ZFS asli dan lingkungan boot</li>
+<li>Kekurangan: Cenderung ketinggalan Linux dalam hal dukungan untuk perangkat keras baru dan eksotis, ketersediaan terbatas aplikasi komersial; tidak memiliki alat konfigurasi grafis</li>
+<li>Manajemen paket perangkat lunak: Infrastruktur manajemen paket baris perintah lengkap yang menggunakan paket biner (melalui pkg) atau &ldquo;port&rdquo; berbasis sumber</li>
+<li>Edisi yang tersedia: CD Instalasi untuk AMD64, ARM / ARMEL, i386, IA64, MIPS / MIPSEL, PC98 PowerPC, SPARC64</li>
+<li>Alternatif berbasis FreeBSD yang disarankan: Project Trident (Desktop), GhostBSD (Desktop), FreeNAS (NAS)</li>
+<li>Alternatif BSD lainnya: OpenBSD, NetBSD, DragonFly BSD</li>
+</ul>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+        
+            
+            
+                <i class="fas fa-folder"></i>
+                
+                
+                <li><a class="article-category-link" href="/categories/os">OS</a></li>
+                
+            
+        
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        
+            
+            
+                <i class="fas fa-tags"></i>
+                
+                
+                <li><a class="article-category-link" href="/tags/freebsd">FreeBSD</a></li>
+                
+            
+        
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+
+</article>
+
+    <article class="post">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "idbmb" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="/blog/gentoo-linux-distro-untuk-pengembang-dan-profesional-jaringan/"
+                class="button big previous">Gentoo Linux Distro Untuk Pengembang dan Profesional Jaringan</a></li>
+    
+
+    
+        <li><a href="/blog/fedora-salah-satu-distribusi-paling-inovatif-yang-tersedia-hari-ini/"
+                class="button big next">Fedora salah satu distribusi paling inovatif yang tersedia hari ini</a></li>
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+    
+    
+    
+      
+        <a href='/' class="logo"><img src="/img/main/logo.jpg" alt="Idbmb" /></a>
+      
+    
+    
+      <header>
+        <h2>Bismillah</h2>
+        <p><strong>Open Source Blog</strong> <i class='fa fa-hand-peace-o'></i></p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+          
+    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS"><i class="fas fa-rss"></i></a></li>
+
+
+        
+        
+  <li><a href="//github.com/idbmb" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/idbmb" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//facebook.com/idbmb" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//instagram.com/idbmb" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+
+
+
+
+
+  <li><a href="//twitter.com/bambang_rahmadi" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+
+
+
+
+
+
+
+
+
+  <li><a href="//telegram.me/idbmb" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a></li>
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:idbmb@pm.me" title="Email"><i class="fas fa-envelope"></i></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  
+  <section id="subscribe">
+    <form style="border:1px solid #ccc;padding:3px;text-align:center;"
+    action="https://tinyletter.com/idbmb"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https:\/\/tinyletter.com\/idbmb',
+        'popupwindow',
+        'scrollbars=yes,width=800,height=600'
+    );return true">
+    <p>
+        <label for="tlemail">
+            <br>
+            Mau Panduan dan Tips Eksklusif ?
+            <br>
+            Berlangganan Idbmb: An Ordinary Open Source Blog Sekarang GRATIS.
+        </label>
+    </p>
+    <p>
+        <input
+        type="text"
+        style="float:center"
+        name="email"
+        id="tlemail"
+        placeholder="Masukkan E-mail Anda"
+        />
+    </p>
+    <input
+        type="hidden"
+        value="1"
+        name="embed"
+    />
+    <input
+        class="button"
+        type="submit"
+        value="Ya, Saya Mau !"
+    />
+    <br></br>
+</form>
+
+  </section>
+  
+
+  
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/arch-linux-dengan-filosofi-kiss/">Arch Linux dengan Filosofi KISS</a>
+              </h3>
+              
+              <time class="published" datetime='2019-10-12'>
+                October 12, 2019
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/arch-linux-dengan-filosofi-kiss/" class="image featured">
+            <img src="../../../img/blog/arch-small.png" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/centos-sering-dipandang-sebagai-distribusi-server-yang-handal/">CentOS sering dipandang sebagai distribusi server yang handal</a>
+              </h3>
+              
+              <time class="published" datetime='2019-10-12'>
+                October 12, 2019
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/centos-sering-dipandang-sebagai-distribusi-server-yang-handal/" class="image featured">
+            <img src="../../../img/blog/centos-small.png" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/debian-distribusi-linux-terbesar-dan-mungkin-proyek-perangkat-lunak-kolaboratif-terbesar/">Debian distribusi Linux terbesar dan mungkin proyek perangkat lunak kolaboratif terbesar</a>
+              </h3>
+              
+              <time class="published" datetime='2019-10-12'>
+                October 12, 2019
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/debian-distribusi-linux-terbesar-dan-mungkin-proyek-perangkat-lunak-kolaboratif-terbesar/" class="image featured">
+            <img src="../../../img/blog/debian-small.png" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/fedora-salah-satu-distribusi-paling-inovatif-yang-tersedia-hari-ini/">Fedora salah satu distribusi paling inovatif yang tersedia hari ini</a>
+              </h3>
+              
+              <time class="published" datetime='2019-10-12'>
+                October 12, 2019
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/fedora-salah-satu-distribusi-paling-inovatif-yang-tersedia-hari-ini/" class="image featured">
+            <img src="../../../img/blog/fedora-small.png" alt="">
+        </a>
+    
+
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /blog/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+  
+  
+      <section id="categories">
+        <header>
+          <h3>
+            <a href="/categories/">Categories</a>
+          </h3>
+        </header>
+          
+            
+          
+
+          
+
+            <article>
+              <header>
+                
+                  <h4><a href="/categories/os/"><i class="fa fa-hashtag"></i>os</a>
+                  <span style="float:right;">12</span></h4>
+                
+              </header>
+            </article>
+
+
+          
+      </section>
+    
+    
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p><b>IDBMB.MY.ID</b> adalah media berbagi dan dokumentasi yang memuat tentang aktivitas dibidang <b>Open Source</b> pada umumnya dan <b>Pemrograman Menggunakan Linux</b> pada khususnya, maupun hal-hal umum yang merupakan sebuah pengalaman pribadi.</p>
+      <a href="/about/" class="button">Lean More</a>
+    </section>
+  
+  <section id="footer">
+  
+    <ul class="icons">
+      
+        
+    <li><a href="/index.xml" type="application/rss+xml" target="_blank" title="RSS"><i class="fas fa-rss"></i></a></li>
+
+
+      
+      
+  <li><a href="//github.com/idbmb" target="_blank" title="GitHub"><i class="fab fa-github"></i></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/idbmb" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//facebook.com/idbmb" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//instagram.com/idbmb" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+
+
+
+
+
+  <li><a href="//twitter.com/bambang_rahmadi" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+
+
+
+
+
+
+
+
+
+  <li><a href="//telegram.me/idbmb" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a></li>
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:idbmb@pm.me" title="Email"><i class="fas fa-envelope"></i></a></li>
+
+
+    </ul>
+  
+</section>
+
+    </div>
+    
+    <table>
+    <section id="footer">
+      <hr>
+
+<p class="left">
+  <a href=/> Home</a> |
+  <a href=/faqs/> FAQs</a> |
+  <a href=/about/> About</a> |
+  <a href=/advertise/> Advertise</a> |
+  <a href=/archive/> Archive</a> |
+  <a href=/contact/> Contact</a>
+  </p>
+<p class="copyright">
+        
+          &copy; 2019
+          
+            
+            <a href=/> IDBMB.MY.ID</a>
+          
+        
+        <i class='fa fa-code'></i> with <i class='fa fa-heart'></i> Using <a href="//gohugo.io" target="_blank"> Hugo</a> - Hosted in <a href="//github.com/idbmb" target="_blank" class='fa fa-github'></a> Support by <a href="../../../about/credit/" class='fa fa-users'></a>
+      </p>
+    </section></table>
+
+    <a id="back-to-top" href="#" class="fas fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+      
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+        
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/css.min.js"></script>
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+      <script src="/js/util.js"></script>
+      <script src="/js/main.js"></script>
+      <script src="/js/backToTop.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script async
+src="https://cdn.jsdelivr.net/npm//mathjax@3.0.0/es5/tex-mml-chtml.js">
+</script>
+
+  </body>
+</html>
+

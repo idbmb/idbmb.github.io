@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fedora on Idbmb: An Ordinary Open Source Blog</title>
-    <link>/tags/fedora/</link>
+    <link>https://idbmb.my.id/tags/fedora/</link>
     <description>Recent content in Fedora on Idbmb: An Ordinary Open Source Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Oct 2019 23:00:39 +0700</lastBuildDate>
     
-	<atom:link href="/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://idbmb.my.id/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fedora salah satu distribusi paling inovatif yang tersedia hari ini</title>
-      <link>/blog/fedora-salah-satu-distribusi-paling-inovatif-yang-tersedia-hari-ini/</link>
+      <link>https://idbmb.my.id/blog/fedora-salah-satu-distribusi-paling-inovatif-yang-tersedia-hari-ini/</link>
       <pubDate>Sat, 12 Oct 2019 23:00:39 +0700</pubDate>
       
-      <guid>/blog/fedora-salah-satu-distribusi-paling-inovatif-yang-tersedia-hari-ini/</guid>
+      <guid>https://idbmb.my.id/blog/fedora-salah-satu-distribusi-paling-inovatif-yang-tersedia-hari-ini/</guid>
       <description>Apa itu Fedora ? Meskipun Fedora secara resmi diluncurkan hanya pada bulan September 2004, asal-usulnya secara efektif tanggal kembali ke 1995 ketika diluncurkan oleh dua visioner Linux - Bob Young dan Marc Ewing - dengan nama Red Hat Linux. Produk pertama perusahaan, Red Hat Linux 1.0 &amp;ldquo;Mother&amp;rsquo;s Day&amp;rdquo;, dirilis pada tahun yang sama dan segera diikuti oleh beberapa pembaruan bug-fix. Pada tahun 1997, Red Hat memperkenalkan sistem manajemen paket RPM revolusionernya dengan resolusi dependensi dan fitur-fitur canggih lainnya yang sangat berkontribusi terhadap peningkatan cepat popularitas distribusi dan penyaluran Slackware Linux sebagai distribusi Linux yang paling banyak digunakan di dunia.</description>
     </item>
     

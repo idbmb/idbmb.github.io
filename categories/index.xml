@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Idbmb: An Ordinary Open Source Blog</title>
-    <link>/categories/</link>
+    <link>https://idbmb.my.id/categories/</link>
     <description>Recent content in Categories on Idbmb: An Ordinary Open Source Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Oct 2019 23:01:06 +0700</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://idbmb.my.id/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>OS</title>
-      <link>/categories/os/</link>
+      <link>https://idbmb.my.id/categories/os/</link>
       <pubDate>Sat, 12 Oct 2019 23:01:06 +0700</pubDate>
       
-      <guid>/categories/os/</guid>
+      <guid>https://idbmb.my.id/categories/os/</guid>
       <description></description>
     </item>
     

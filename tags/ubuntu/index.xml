@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ubuntu on Idbmb: An Ordinary Open Source Blog</title>
-    <link>/tags/ubuntu/</link>
+    <link>https://idbmb.my.id/tags/ubuntu/</link>
     <description>Recent content in Ubuntu on Idbmb: An Ordinary Open Source Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Oct 2019 22:59:11 +0700</lastBuildDate>
     
-	<atom:link href="/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://idbmb.my.id/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Apa Alasan Kesuksesan Ubuntu yang Menakjubkan</title>
-      <link>/blog/apa-alasan-kesuksesan-ubuntu-yang-menakjubkan/</link>
+      <link>https://idbmb.my.id/blog/apa-alasan-kesuksesan-ubuntu-yang-menakjubkan/</link>
       <pubDate>Sat, 12 Oct 2019 22:59:11 +0700</pubDate>
       
-      <guid>/blog/apa-alasan-kesuksesan-ubuntu-yang-menakjubkan/</guid>
+      <guid>https://idbmb.my.id/blog/apa-alasan-kesuksesan-ubuntu-yang-menakjubkan/</guid>
       <description>Apa itu Ubuntu ? Peluncuran Ubuntu pertama kali diumumkan pada bulan September 2004. Meskipun merupakan pendatang baru di dunia distribusi Linux, proyek ini tidak seperti yang lain sebelumnya, dengan milisnya segera diisi dengan diskusi oleh pengguna yang bersemangat dan pengembang yang antusias. Pada tahun-tahun berikutnya, Ubuntu tumbuh menjadi distribusi Linux desktop paling populer dan telah memberikan kontribusi besar terhadap pengembangan sistem operasi desktop yang mudah digunakan dan gratis yang dapat bersaing dengan baik dengan yang eksklusif yang tersedia di pasar.</description>
     </item>
     

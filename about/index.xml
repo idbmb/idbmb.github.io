@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Idbmb: An Ordinary Open Source Blog</title>
-    <link>/about/</link>
+    <link>https://idbmb.my.id/about/</link>
     <description>Recent content in About on Idbmb: An Ordinary Open Source Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://idbmb.my.id/about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Credits</title>
-      <link>/about/credit/</link>
+      <link>https://idbmb.my.id/about/credit/</link>
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/about/credit/</guid>
+      <guid>https://idbmb.my.id/about/credit/</guid>
       <description> Acknowledgments To those who inspire the development of this blog.
 Original Theme   Hugo Future Imperfect Ported by : JULIO PESCADOR   </description>
     </item>

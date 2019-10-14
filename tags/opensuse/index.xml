@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>openSUSE on Idbmb: An Ordinary Open Source Blog</title>
-    <link>/tags/opensuse/</link>
+    <link>https://idbmb.my.id/tags/opensuse/</link>
     <description>Recent content in openSUSE on Idbmb: An Ordinary Open Source Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Oct 2019 22:59:40 +0700</lastBuildDate>
     
-	<atom:link href="/tags/opensuse/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://idbmb.my.id/tags/opensuse/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Awal Mula Sejarah openSUSE</title>
-      <link>/blog/awal-mula-sejarah-opensuse/</link>
+      <link>https://idbmb.my.id/blog/awal-mula-sejarah-opensuse/</link>
       <pubDate>Sat, 12 Oct 2019 22:59:40 +0700</pubDate>
       
-      <guid>/blog/awal-mula-sejarah-opensuse/</guid>
+      <guid>https://idbmb.my.id/blog/awal-mula-sejarah-opensuse/</guid>
       <description>Apa itu openSUSE ? Awal openSUSE dimulai pada tahun 1992 ketika empat penggemar Linux Jerman - Roland Dyroff, Thomas Fehr, Hubert Mantel dan Burchard Steinbild - meluncurkan proyek dengan nama SuSE (Software und System Entwicklung) Linux. Pada hari-hari awal, perusahaan muda itu menjual set disket berisi Slackware Linux edisi Jerman, tetapi tidak lama sebelum SuSE Linux menjadi distribusi independen dengan peluncuran versi 4.2 pada Mei 1996. Pada tahun-tahun berikutnya, pengembang mengadopsi format manajemen paket RPM dan memperkenalkan YaST, alat administrasi sistem grafis yang mudah digunakan.</description>
     </item>
     

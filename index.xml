@@ -6,10 +6,20 @@
     <description>Recent content on Idbmb: An Ordinary Open Source Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-ID</language>
-    <lastBuildDate>Sun, 13 Oct 2019 12:51:11 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 20 Oct 2019 22:58:27 +0700</lastBuildDate>
     
 	<atom:link href="https://idbmb.my.id/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Kebijakan Berkomentar</title>
+      <link>https://idbmb.my.id/about/kebijakan-komentar/</link>
+      <pubDate>Sun, 20 Oct 2019 22:58:27 +0700</pubDate>
+      
+      <guid>https://idbmb.my.id/about/kebijakan-komentar/</guid>
+      <description>Komentar Anda tentunya semakin memotivasi saya untuk menulis artikel-artikel bermanfaat terkait lingkup Blog open source yang mencakup berbagai topik yang saya gunakan selama bekerja atau waktu pribadi saya. Saya sangat menghargai komentar para pengunjung, dan sebelum Anda berkomentar pastikan Anda membaca Kebijakan Komentar berikut ini :
+KOMENTAR YANG DI ANJURKAN  Berkomentarlah yang relevan sesuai dengan poin artikel Jangan menggunakan kata/kalimat “terlarang” Jangan memasukkan URL blog pada kolom komentar (terkecuali diperlukan)  KOMENTAR YANG DILARANG  Komentar Spam.</description>
+    </item>
     
     <item>
       <title>FAQs</title>

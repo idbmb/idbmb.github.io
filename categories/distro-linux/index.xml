@@ -1,65 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Idbmb: An Ordinary Open Source Blog</title>
-    <link>https://idbmb.my.id/</link>
-    <description>Recent content on Idbmb: An Ordinary Open Source Blog</description>
+    <title>Distro-Linux on Idbmb: An Ordinary Open Source Blog</title>
+    <link>https://idbmb.my.id/categories/distro-linux/</link>
+    <description>Recent content in Distro-Linux on Idbmb: An Ordinary Open Source Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-ID</language>
-    <lastBuildDate>Mon, 21 Oct 2019 05:17:06 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 12 Oct 2019 23:01:06 +0700</lastBuildDate>
     
-	<atom:link href="https://idbmb.my.id/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://idbmb.my.id/categories/distro-linux/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>https://idbmb.my.id/about/privacy-policy/</link>
-      <pubDate>Mon, 21 Oct 2019 05:17:06 +0700</pubDate>
-      
-      <guid>https://idbmb.my.id/about/privacy-policy/</guid>
-      <description>Privacy Policy For  www.idbmb.my.id  Kebijakan Privasi di  www.idbmb.my.id , privasi pengunjung kami sangat penting bagi kami. Dokumen kebijakan privasi ini menguraikan jenis-jenis informasi pribadi yang diterima dan dikumpulkan oleh  www.idbmb.my.id  dan bagaimana informasi itu digunakan.
-Log Files Seperti banyak situs Web lainnya,  www.idbmb.my.id  memanfaatkan file log. Informasi di dalam file log termasuk alamat protokol internet (IP), jenis browser, Penyedia Layanan Internet (ISP), cap tanggal / waktu, halaman rujukan / keluar, dan jumlah klik untuk menganalisis tren, mengelola situs, melacak pergerakan pengguna di sekitar situs, dan kumpulkan informasi demografis.</description>
-    </item>
-    
-    <item>
-      <title>Disclaimer</title>
-      <link>https://idbmb.my.id/about/disclaimer/</link>
-      <pubDate>Mon, 21 Oct 2019 05:05:24 +0700</pubDate>
-      
-      <guid>https://idbmb.my.id/about/disclaimer/</guid>
-      <description>Disclaimer for Idbmb: An Ordinary Open Source Blog Jika Anda memerlukan informasi lebih lanjut atau memiliki pertanyaan tentang penolakan situs kami, jangan ragu untuk menghubungi kami di  Contact Us 
-Disclaimers for idbmb.my.id : Semua informasi di situs web ini dipublikasikan dengan itikad baik dan hanya untuk tujuan informasi umum.  www.idbmb.my.id  tidak membuat jaminan apa pun tentang kelengkapan, keandalan, dan keakuratan informasi ini. Segala tindakan yang Anda ambil atas informasi yang Anda temukan di situs web ini ( www.</description>
-    </item>
-    
-    <item>
-      <title>Kebijakan Berkomentar</title>
-      <link>https://idbmb.my.id/about/kebijakan-komentar/</link>
-      <pubDate>Sun, 20 Oct 2019 22:58:27 +0700</pubDate>
-      
-      <guid>https://idbmb.my.id/about/kebijakan-komentar/</guid>
-      <description>Komentar Anda tentunya semakin memotivasi saya untuk menulis artikel-artikel bermanfaat terkait lingkup Blog open source yang mencakup berbagai topik yang saya gunakan selama bekerja atau waktu pribadi saya. Saya sangat menghargai komentar para pengunjung, dan sebelum Anda berkomentar pastikan Anda membaca Kebijakan Komentar berikut ini :
-KOMENTAR YANG DI ANJURKAN  Berkomentarlah yang relevan sesuai dengan poin artikel Jangan menggunakan kata/kalimat “terlarang” Jangan memasukkan URL blog pada kolom komentar (terkecuali diperlukan)  KOMENTAR YANG DILARANG  Komentar Spam.</description>
-    </item>
-    
-    <item>
-      <title>FAQs</title>
-      <link>https://idbmb.my.id/faqs/</link>
-      <pubDate>Sun, 13 Oct 2019 12:51:11 +0700</pubDate>
-      
-      <guid>https://idbmb.my.id/faqs/</guid>
-      <description> Pertanyaan yang Sering Ditanyakan  Coming Soon
- </description>
-    </item>
-    
-    <item>
-      <title>Advertise</title>
-      <link>https://idbmb.my.id/advertise/</link>
-      <pubDate>Sun, 13 Oct 2019 12:26:10 +0700</pubDate>
-      
-      <guid>https://idbmb.my.id/advertise/</guid>
-      <description> Pasang Iklan di IDBMB.MY.ID   Coming Soon
- </description>
-    </item>
     
     <item>
       <title>Arch Linux dengan Filosofi KISS</title>
@@ -168,53 +118,6 @@ KOMENTAR YANG DI ANJURKAN  Berkomentarlah yang relevan sesuai dengan poin artike
       <guid>https://idbmb.my.id/blog/kenalan-dengan-sistem-operasi-open-source-sampai-jatuh-cinta/</guid>
       <description>Apa itu Sistem Operasi Open Source ? Sistem Operasi Open Source adalah sistem operasi yang kode sumbernya terbuka bebas oleh pengembangnya sehingga bisa dipelajari, diubah, dikembangkan, dan disebarluaskan lebih lanjut oleh orang lain.
 Sistem Operasi biasa disingkat OS (Operating System) &amp;amp; Open Source (Dalam Bahasa Indonesia: Sumber Terbuka) Pasti telinga kita sudah sering mendengar tentang hal ini bahkan ada juga &amp;lsquo;mungkin&amp;rsquo; yang baru baca tentang &amp;lsquo;Apa itu Open Source&amp;rsquo; Wajar karena di Indonesia sendiri terhitung masih belum banyak pengguna Linux Open Source OS.</description>
-    </item>
-    
-    <item>
-      <title>Credits</title>
-      <link>https://idbmb.my.id/about/credit/</link>
-      <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://idbmb.my.id/about/credit/</guid>
-      <description> Acknowledgments To those who inspire the development of this blog.
-Original Theme   Hugo Future Imperfect Ported by : JULIO PESCADOR   </description>
-    </item>
-    
-    <item>
-      <title>OWASP - SecureTea Project Tool</title>
-      <link>https://idbmb.my.id/project/owasp-securetea-project-tool/</link>
-      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://idbmb.my.id/project/owasp-securetea-project-tool/</guid>
-      <description>OWASP - SECURETEA PROJECT TOOL Aplikasi ini menggunakan touchpad / mouse / mouse nirkabel untuk menentukan aktivitas dan dikembangkan dengan Python dan diuji pada berbagai mesin (Linux, Mac &amp;amp; Windows). Perangkat lunak ini masih dalam pengembangan, dan pada akhirnya akan memiliki IDS (Intrusion Detection System) / IPS (Instrusion Prevention System) sendiri, firewall, anti-virus, kemampuan pemantauan log cerdas dengan deteksi defokasi web, dan dukungan untuk media komunikasi yang jauh lebih banyak.</description>
-    </item>
-    
-    <item>
-      <title>Matory - Mall Directory Chatbot</title>
-      <link>https://idbmb.my.id/project/landing-page-matory/</link>
-      <pubDate>Sun, 22 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://idbmb.my.id/project/landing-page-matory/</guid>
-      <description> Landing Pages LINE Chatbot </description>
-    </item>
-    
-    <item>
-      <title>Gorontalowords Mobile</title>
-      <link>https://idbmb.my.id/project/android-application-webview/</link>
-      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://idbmb.my.id/project/android-application-webview/</guid>
-      <description> Android Application (Webview) </description>
-    </item>
-    
-    <item>
-      <title>Radio Online</title>
-      <link>https://idbmb.my.id/project/web-service-broadcasting/</link>
-      <pubDate>Fri, 22 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://idbmb.my.id/project/web-service-broadcasting/</guid>
-      <description> Web Service broadcasting Radio Online - Citakreasi FM SMK Negeri 1 Gorontalo
-Front-End Back-End </description>
     </item>
     
   </channel>

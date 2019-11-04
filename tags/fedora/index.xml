@@ -6,10 +6,21 @@
     <description>Recent content in Fedora on Idbmb: An Ordinary Open Source Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-ID</language>
-    <lastBuildDate>Sat, 12 Oct 2019 23:00:39 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 03 Nov 2019 23:18:44 +0700</lastBuildDate>
     
 	<atom:link href="https://idbmb.my.id/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fedora 31 Sudah Rilis Cek Fiturnya sekarang</title>
+      <link>https://idbmb.my.id/blog/fedora-31-sudah-rilis/</link>
+      <pubDate>Sun, 03 Nov 2019 23:18:44 +0700</pubDate>
+      
+      <guid>https://idbmb.my.id/blog/fedora-31-sudah-rilis/</guid>
+      <description>Setelah beberapa minggu lalu saya mengenalkan apa itu Fedora melalui artikel Fedora salah satu distribusi paling inovatif yang tersedia hari ini Ehh ternyata 5 hari yang lalu sudah rilis versi baru nya.
+Yuk Simak ! Matthew Miller, Pemimpin Proyek Fedora menjelaskan :
+ &amp;ldquo;Proyek Fedora bertujuan untuk membawa inovasi terdepan kepada pengguna kami, dan Fedora 31 memberikan itu dengan membawa beberapa kemajuan terbaru dalam teknologi open source ke sistem operasi.</description>
+    </item>
     
     <item>
       <title>Fedora salah satu distribusi paling inovatif yang tersedia hari ini</title>

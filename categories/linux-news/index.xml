@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux-News on Idbmb: An Ordinary Open Source Blog</title>
+    <link>https://idbmb.my.id/categories/linux-news/</link>
+    <description>Recent content in Linux-News on Idbmb: An Ordinary Open Source Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-ID</language>
+    <lastBuildDate>Sun, 03 Nov 2019 23:18:44 +0700</lastBuildDate>
+    
+	<atom:link href="https://idbmb.my.id/categories/linux-news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fedora 31 Sudah Rilis Cek Fiturnya sekarang</title>
+      <link>https://idbmb.my.id/blog/fedora-31-sudah-rilis/</link>
+      <pubDate>Sun, 03 Nov 2019 23:18:44 +0700</pubDate>
+      
+      <guid>https://idbmb.my.id/blog/fedora-31-sudah-rilis/</guid>
+      <description>Setelah beberapa minggu lalu saya mengenalkan apa itu Fedora melalui artikel Fedora salah satu distribusi paling inovatif yang tersedia hari ini Ehh ternyata 5 hari yang lalu sudah rilis versi baru nya.
+Yuk Simak ! Matthew Miller, Pemimpin Proyek Fedora menjelaskan :
+ &amp;ldquo;Proyek Fedora bertujuan untuk membawa inovasi terdepan kepada pengguna kami, dan Fedora 31 memberikan itu dengan membawa beberapa kemajuan terbaru dalam teknologi open source ke sistem operasi.</description>
+    </item>
+    
+  </channel>
+</rss>
